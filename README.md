@@ -19,18 +19,27 @@ Desenvolvido utilizando **Cypress** + **Ajv** (validador de JSON Schema).
 ## 📁 Estrutura do projeto
 
 qa-challenging-dom-and-api-tests/ 
-│ 
-├─ cypress/ 
-│ ├─ e2e/ 
-│ │ ├─ ui_challenging_dom.cy.js → testes de interface web 
-│ │ └─ api_users.cy.js → testes da API /users 
-│ ├─ fixtures/ 
-│ │ └─ user.schema.json → schema de validação de usuários 
-│ 
-├─ cypress.config.js → configurações globais 
-├─ package.json → dependências do projeto 
-├─ README.md → documentação do desafio
+│
 
+├─ cypress/
+
+│ ├─ e2e/
+
+│ │ ├─ ui_challenging_dom.cy.js → testes de interface web
+
+│ │ └─ api_users.cy.js → testes da API /users
+
+│ ├─ fixtures/
+
+│ │ └─ user.schema.json → schema de validação de usuários
+
+│
+
+├─ cypress.config.js → configurações globais
+
+├─ package.json → dependências do projeto
+
+├─ README.md → documentação do desafio
 
 ---  
 
